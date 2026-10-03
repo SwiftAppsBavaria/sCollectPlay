@@ -60,7 +60,7 @@ Nein. sCollectPlay ist ein Abspieler und verändert keine Metadaten.
 Apple Music senden…**. Beim ersten Mal fragt macOS, ob die App Apple Music steuern darf.
 
 **Was kann sCollectPlay, was die Lite-Ausgabe nicht kann?**
-sCollectPlay bietet zusätzlich den Spaltenbrowser, eigene und intelligente
+sCollectPlay bietet zusätzlich den Spaltenbrowser, die Auswahl der sichtbaren Spalten, eigene und intelligente
 Wiedergabelisten, das Zusammenführen mehrerer Ordner, die Listen der zuletzt benutzten
 Quellen und das Wiederherstellen der letzten Quelle beim Start. sCollectPlay Lite spielt je
 Sitzung eine Quelle.

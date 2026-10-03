@@ -60,7 +60,7 @@ Playlist to Apple Music…**. The first time, macOS asks whether the app may con
 Music.
 
 **What can sCollectPlay do that the Lite edition can’t?**
-sCollectPlay additionally offers the column browser, your own and smart playlists,
+sCollectPlay additionally offers the column browser, choosing which columns to show, your own and smart playlists,
 combining several folders, the lists of recently used sources and restoring the last
 source at launch. sCollectPlay Lite plays one source per session.
 

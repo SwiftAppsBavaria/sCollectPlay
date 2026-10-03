@@ -59,7 +59,7 @@ playlist para o Apple Music…**. Na primeira vez, o macOS pergunta se o app pod
 Apple Music.
 
 **O que o sCollectPlay faz que a edição Lite não faz?**
-O sCollectPlay oferece além disso o navegador de colunas, playlists próprias e inteligentes,
+O sCollectPlay oferece além disso o navegador de colunas, a escolha das colunas visíveis, playlists próprias e inteligentes,
 a junção de várias pastas, as listas das fontes usadas recentemente e a restauração da
 última fonte na inicialização. O sCollectPlay Lite reproduz uma fonte por sessão.
 

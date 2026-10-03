@@ -56,7 +56,7 @@ Enviar playlist para o Apple Music…**. Da primeira vez, o macOS pergunta se a 
 controlar o Apple Music.
 
 **O que faz o sCollectPlay que a edição Lite não faz?**
-O sCollectPlay oferece adicionalmente o navegador de colunas, playlists próprias e
+O sCollectPlay oferece adicionalmente o navegador de colunas, a escolha das colunas visíveis, playlists próprias e
 inteligentes, a junção de várias pastas, as listas das fontes usadas recentemente e a
 reposição da última fonte no arranque. O sCollectPlay Lite reproduz uma fonte por sessão.
 

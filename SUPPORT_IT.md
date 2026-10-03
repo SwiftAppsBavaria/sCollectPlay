@@ -55,7 +55,7 @@ playlist ad Apple Music…**. La prima volta macOS chiede se l’app può contro
 Music.
 
 **Che cosa sa fare sCollectPlay che l’edizione Lite non sa fare?**
-sCollectPlay offre in più il browser a colonne, playlist proprie e smart, l’unione di più
+sCollectPlay offre in più il browser a colonne, la scelta delle colonne visibili, playlist proprie e smart, l’unione di più
 cartelle, gli elenchi delle fonti usate di recente e il ripristino dell’ultima fonte
 all’avvio. sCollectPlay Lite riproduce una fonte per sessione.
 

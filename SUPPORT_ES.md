@@ -56,7 +56,7 @@ playlist a Apple Music…**. La primera vez, macOS pregunta si la app puede cont
 Apple Music.
 
 **¿Qué puede hacer sCollectPlay que la edición Lite no puede?**
-sCollectPlay ofrece además el explorador de columnas, listas de reproducción propias e
+sCollectPlay ofrece además el explorador de columnas, la elección de las columnas visibles, listas de reproducción propias e
 inteligentes, la unión de varias carpetas, las listas de las fuentes usadas últimamente
 y la recuperación de la última fuente al iniciar. sCollectPlay Lite reproduce una fuente
 por sesión.

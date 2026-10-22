@@ -4,12 +4,12 @@ layout: lite
 
 # Privacy Policy for sCollectPlay and sCollectPlay Lite
 
-Last updated: 2026-10-01
+Last updated: 2026-10-22
 
 ## In brief
 
 sCollectPlay and sCollectPlay Lite collect, store and transmit **no** personal data. The
-apps work exclusively on your Mac. There are no accounts, no cloud connection, no analytics
+apps work exclusively on your Mac or Windows PC. There are no accounts, no cloud connection, no analytics
 services and no advertising.
 
 ## What data the app processes
@@ -57,6 +57,28 @@ Only when you expressly delete a file does the app put it in the macOS Trash and
 from the list; if it comes from an sCollect library, that library’s catalog is adjusted
 accordingly. On drives without a Trash the app asks beforehand whether the file should be
 deleted for good.
+
+## On Windows
+
+The sections above describe the Mac. On Windows, sCollectPlay and sCollectPlay Lite store the following exclusively
+locally, in the app’s data folder (`%LOCALAPPDATA%\Packages\<package>\LocalState` and `Settings`):
+
+- **Settings and the window position.**
+- **The source you chose last** — scanned folders, an iTunes XML file or a sCollect library — and the result of the
+  last scan.
+- **In sCollectPlay additionally:** your own playlists.
+- **An error log** (`fehler.log`), which stays on your PC.
+
+All of this is removed when you uninstall the app.
+
+The app reads media files and XML files only where you select them; a sCollect library is only read. It makes no
+network connections of its own, uses no analytics services and shows no advertising. Files that Windows cannot play
+itself are handed to the default program for that file type, which you choose in Windows.
+
+## Microsoft Store
+
+On Windows, purchase (sCollectPlay), download and updates are handled by the Microsoft Store; Microsoft’s privacy
+statement applies to these. sCollectPlay Lite is free and refers to the full version in the Store.
 
 ## No sharing, no analytics
 

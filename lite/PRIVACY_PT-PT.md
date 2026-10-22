@@ -4,12 +4,12 @@ layout: lite
 
 # Política de privacidade do sCollectPlay e do sCollectPlay Lite
 
-Atualizado a: 2026-10-01
+Atualizado a: 2026-10-22
 
 ## Em resumo
 
 O sCollectPlay e o sCollectPlay Lite **não** recolhem, não guardam e não transmitem dados
-pessoais. As aplicações trabalham exclusivamente no seu Mac. Não há contas, não há ligação à
+pessoais. As aplicações trabalham exclusivamente no seu Mac ou PC com Windows. Não há contas, não há ligação à
 nuvem, não há serviços de análise e não há publicidade.
 
 ## Que dados a aplicação processa
@@ -59,6 +59,28 @@ Só quando apaga expressamente um ficheiro é que a aplicação o coloca no Lixo
 retira da lista; se provier de uma biblioteca do sCollect, o respetivo catálogo também é
 ajustado em conformidade. Em unidades sem Lixo, a aplicação pergunta antes se o ficheiro
 deve ser apagado definitivamente.
+
+## No Windows
+
+As secções acima descrevem o Mac. No Windows, o sCollectPlay e o sCollectPlay Lite guardam o seguinte exclusivamente de
+forma local, na pasta de dados da aplicação (`%LOCALAPPDATA%\Packages\<pacote>\LocalState` e `Settings`):
+
+- **Definições e a posição da janela.**
+- **A última fonte escolhida** — pastas analisadas, um ficheiro XML do iTunes ou uma biblioteca do sCollect — e o
+  resultado da última análise.
+- **No sCollectPlay, adicionalmente:** as suas próprias playlists.
+- **Um registo de erros** (`fehler.log`), que fica no seu PC.
+
+Tudo isto é removido quando desinstala a aplicação.
+
+A aplicação só lê ficheiros multimédia e ficheiros XML onde os selecionar; uma biblioteca do sCollect é apenas lida. Não
+estabelece ligações de rede próprias, não usa serviços de análise e não apresenta publicidade. Os ficheiros que o
+Windows não reproduz sozinho são entregues ao programa predefinido para esse tipo de ficheiro, que escolhe no Windows.
+
+## Microsoft Store
+
+No Windows, a compra (sCollectPlay), a transferência e as atualizações são feitas através da Microsoft Store; aplica-se
+a declaração de privacidade da Microsoft. O sCollectPlay Lite é gratuito e remete para a versão completa na Store.
 
 ## Sem transmissão, sem análise
 

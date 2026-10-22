@@ -1,11 +1,11 @@
 # Informativa sulla privacy di sCollectPlay e sCollectPlay Lite
 
-Aggiornamento: 2026-10-01
+Aggiornamento: 2026-10-22
 
 ## In breve
 
 sCollectPlay e sCollectPlay Lite non raccolgono, non memorizzano e non trasmettono **alcun**
-dato personale. Le app lavorano esclusivamente sul tuo Mac. Non ci sono account, nessun
+dato personale. Le app lavorano esclusivamente sul tuo Mac o PC Windows. Non ci sono account, nessun
 collegamento al cloud, nessun servizio di analisi e nessuna pubblicità.
 
 ## Quali dati elabora l’app
@@ -55,6 +55,28 @@ Solo se elimini espressamente un file, l’app lo sposta nel Cestino di macOS e 
 dall’elenco; se proviene da una libreria sCollect, anche il suo catalogo viene adeguato di
 conseguenza. Sulle unità senza Cestino l’app chiede prima se il file deve essere eliminato
 definitivamente.
+
+## Su Windows
+
+Le sezioni precedenti descrivono il Mac. Su Windows, sCollectPlay e sCollectPlay Lite salvano quanto segue
+esclusivamente in locale, nella cartella dati dell’app (`%LOCALAPPDATA%\Packages\<pacchetto>\LocalState` e `Settings`):
+
+- **Impostazioni e posizione della finestra.**
+- **L’ultima sorgente scelta** — cartelle scansionate, un file XML di iTunes o una libreria sCollect — e il risultato
+  dell’ultima scansione.
+- **In sCollectPlay inoltre:** le tue playlist.
+- **Un registro degli errori** (`fehler.log`), che resta sul tuo PC.
+
+Tutto questo viene rimosso quando disinstalli l’app.
+
+L’app legge file multimediali e file XML solo dove li selezioni tu; una libreria sCollect viene soltanto letta. Non
+stabilisce connessioni di rete proprie, non usa servizi di analisi e non mostra pubblicità. I file che Windows non
+riproduce da sé vengono passati al programma predefinito per quel tipo di file, che scegli in Windows.
+
+## Microsoft Store
+
+Su Windows, acquisto (sCollectPlay), download e aggiornamenti passano attraverso il Microsoft Store; per questi vale
+l’informativa sulla privacy di Microsoft. sCollectPlay Lite è gratuita e rimanda alla versione completa nello Store.
 
 ## Nessuna trasmissione, nessuna analisi
 

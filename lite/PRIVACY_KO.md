@@ -4,12 +4,12 @@ layout: lite
 
 # sCollectPlay 및 sCollectPlay Lite 개인정보 처리방침
 
-기준일: 2026-10-01
+기준일: 2026-10-22
 
 ## 요약
 
 sCollectPlay와 sCollectPlay Lite는 개인정보를 **전혀** 수집하지 않고, 저장하지 않으며,
-전송하지 않습니다. 이 앱들은 오직 사용자의 Mac에서만 동작합니다. 계정도, 클라우드
+전송하지 않습니다. 이 앱들은 오직 사용자의 Mac 또는 Windows PC에서만 동작합니다. 계정도, 클라우드
 연결도, 분석 서비스도, 광고도 없습니다.
 
 ## 앱이 처리하는 데이터
@@ -55,6 +55,27 @@ sCollectPlay와 sCollectPlay Lite는 개인정보를 **전혀** 수집하지 않
 파일을 명시적으로 삭제할 때만 앱은 그 파일을 macOS 휴지통으로 옮기고 목록에서
 뺍니다. 그 파일이 sCollect 라이브러리에 속해 있으면 그 카탈로그도 그에 맞게
 고쳐집니다. 휴지통이 없는 드라이브에서는 파일을 영구히 삭제할지 앱이 먼저 묻습니다.
+
+## Windows에서
+
+위의 내용은 Mac에 관한 것입니다. Windows에서 sCollectPlay와 sCollectPlay Lite는 다음 항목을 앱의 데이터
+폴더(`%LOCALAPPDATA%\Packages\<패키지>\LocalState` 및 `Settings`)에만 로컬로 저장합니다.
+
+- **설정과 창 위치.**
+- **마지막으로 선택한 소스** — 스캔한 폴더, iTunes XML 파일 또는 sCollect 라이브러리 — 와 마지막 스캔 결과.
+- **sCollectPlay에서는 추가로:** 직접 만든 재생목록.
+- **오류 로그**(`fehler.log`). 사용자의 PC 밖으로 나가지 않습니다.
+
+이 모든 것은 앱을 제거하면 삭제됩니다.
+
+앱은 사용자가 선택한 위치의 미디어 파일과 XML 파일만 읽습니다. sCollect 라이브러리는 읽기만 합니다. 앱은
+자체적으로 네트워크에 연결하지 않으며, 분석 서비스와 광고도 없습니다. Windows가 직접 재생하지 못하는 파일은 해당
+파일 형식의 기본 앱에 넘겨지며, 그 앱은 사용자가 Windows에서 정합니다.
+
+## Microsoft Store
+
+Windows에서는 구입(sCollectPlay), 다운로드, 업데이트가 Microsoft Store를 통해 이루어지며, 여기에는 Microsoft
+개인정보처리방침이 적용됩니다. sCollectPlay Lite는 무료이며 Store의 정식 버전을 안내합니다.
 
 ## 제3자 제공 없음, 분석 없음
 

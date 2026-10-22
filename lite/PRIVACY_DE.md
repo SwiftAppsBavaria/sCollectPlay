@@ -4,12 +4,12 @@ layout: lite
 
 # Datenschutzerklärung für sCollectPlay und sCollectPlay Lite
 
-Stand: 2026-10-01
+Stand: 2026-10-22
 
 ## Kurzfassung
 
 sCollectPlay und sCollectPlay Lite erheben, speichern und übermitteln **keine**
-personenbezogenen Daten. Die Apps arbeiten ausschließlich auf deinem Mac. Es gibt keine
+personenbezogenen Daten. Die Apps arbeiten ausschließlich auf deinem Mac bzw. Windows-PC. Es gibt keine
 Konten, keine Cloud-Anbindung, keine Analysedienste und keine Werbung.
 
 ## Welche Daten die App verarbeitet
@@ -57,6 +57,28 @@ Nur wenn du eine Datei ausdrücklich löschst, legt die App sie in den Papierkor
 und nimmt sie aus der Liste; stammt sie aus einer sCollect-Mediathek, wird auch deren
 Katalog entsprechend angepasst. Auf Laufwerken ohne Papierkorb fragt die App vorher, ob
 die Datei endgültig gelöscht werden soll.
+
+## Unter Windows
+
+Die Abschnitte oben beschreiben den Mac. Unter Windows legen sCollectPlay und sCollectPlay Lite Folgendes ausschließlich
+lokal im Datenordner der App ab (`%LOCALAPPDATA%\Packages\<Paket>\LocalState` und `Settings`):
+
+- **Einstellungen und die Fensterlage.**
+- **Die zuletzt gewählte Quelle** — gescannte Ordner, eine iTunes-XML-Datei oder eine sCollect-Mediathek — und das
+  Ergebnis des letzten Scans.
+- **In sCollectPlay zusätzlich:** deine eigenen Wiedergabelisten.
+- **Ein Fehlerprotokoll** (`fehler.log`), das auf deinem PC bleibt.
+
+Alles davon wird entfernt, wenn du die App deinstallierst.
+
+Die App liest Mediendateien und XML-Dateien nur dort, wo du sie auswählst; eine sCollect-Mediathek wird nur gelesen. Sie
+baut keine eigenen Netzverbindungen auf, nutzt keine Analysedienste und zeigt keine Werbung. Dateien, die Windows nicht
+selbst abspielt, übergibt sie an das Standardprogramm für den Dateityp — welches das ist, stellst du in Windows ein.
+
+## Microsoft Store
+
+Unter Windows laufen Kauf (sCollectPlay), Download und Updates über den Microsoft Store; dafür gilt die
+Datenschutzerklärung von Microsoft. sCollectPlay Lite ist kostenlos und verweist auf die Vollversion im Store.
 
 ## Keine Weitergabe, keine Analyse
 

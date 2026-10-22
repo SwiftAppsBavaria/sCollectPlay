@@ -1,11 +1,10 @@
 # sCollectPlay 和 sCollectPlay Lite 隱私權政策
 
-更新日期：2026-10-01
+更新日期：2026-10-22
 
 ## 摘要
 
-sCollectPlay 和 sCollectPlay Lite **不會**蒐集、儲存或傳送任何個人資料。這兩個 App 只在你的 Mac
-上運作。沒有帳號，沒有雲端連線，沒有分析服務，也沒有廣告。
+sCollectPlay 和 sCollectPlay Lite **不會**蒐集、儲存或傳送任何個人資料。這兩個 App 只在你的 Mac 或 Windows 電腦上運作。沒有帳號，沒有雲端連線，沒有分析服務，也沒有廣告。
 
 ## App 處理哪些資料
 
@@ -45,6 +44,26 @@ App 不寫入標籤，也不更改你檔案的中繼資料。
 只有當你明確刪除某個檔案時，App 才會把它移到 macOS 的垃圾桶，並將其從清單中移除；如果它來自
 某個 sCollect 媒體庫，該媒體庫的目錄也會相應更新。在沒有垃圾桶的磁碟上，App 會先詢問是否
 要永久刪除該檔案。
+
+## 在 Windows 上
+
+以上內容說明的是 Mac。在 Windows 上，sCollectPlay 和 sCollectPlay Lite 只把以下內容儲存在本機、App 自己的資料夾中
+（`%LOCALAPPDATA%\Packages\<套件>\LocalState` 和 `Settings`）：
+
+- **設定與視窗位置。**
+- **最近一次選擇的來源** —— 掃描過的資料夾、一個 iTunes XML 檔案或一個 sCollect 媒體庫 —— 以及上一次掃描的結果。
+- **sCollectPlay 另外還會儲存：** 你自建的播放清單。
+- **錯誤記錄**（`fehler.log`），它只留在你的電腦上。
+
+解除安裝 App 時，這些內容會全部刪除。
+
+App 只在你選擇的位置讀取媒體檔案和 XML 檔案；sCollect 媒體庫只會被讀取。App 不會自行建立網路連線，不使用分析服務，
+也沒有廣告。Windows 本身無法播放的檔案，會交給該檔案類型的預設程式，預設程式由你在 Windows 中選擇。
+
+## Microsoft Store
+
+在 Windows 上，購買（sCollectPlay）、下載和更新都透過 Microsoft Store 進行，適用 Microsoft 的隱私權聲明。
+sCollectPlay Lite 是免費的，並會引導你前往 Store 中的完整版。
 
 ## 不轉交，不分析
 

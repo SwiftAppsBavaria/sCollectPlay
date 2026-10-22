@@ -1,11 +1,11 @@
 # Politique de confidentialité de sCollectPlay et sCollectPlay Lite
 
-Mise à jour : 2026-10-01
+Mise à jour : 2026-10-22
 
 ## En bref
 
 sCollectPlay et sCollectPlay Lite ne collectent, n’enregistrent et ne transmettent
-**aucune** donnée personnelle. Les apps travaillent exclusivement sur votre Mac. Il n’y a
+**aucune** donnée personnelle. Les apps travaillent exclusivement sur votre Mac ou votre PC Windows. Il n’y a
 ni comptes, ni connexion au cloud, ni services d’analyse, ni publicité.
 
 ## Quelles données l’app traite
@@ -56,6 +56,30 @@ Seulement lorsque vous supprimez expressément un fichier, l’app le place dans
 de macOS et le retire de la liste ; s’il provient d’une bibliothèque sCollect, le
 catalogue de celle-ci est adapté en conséquence. Sur les disques sans corbeille, l’app
 demande d’abord si le fichier doit être supprimé définitivement.
+
+## Sous Windows
+
+Les sections ci-dessus décrivent le Mac. Sous Windows, sCollectPlay et sCollectPlay Lite enregistrent les éléments
+suivants exclusivement en local, dans le dossier de données de l’app (`%LOCALAPPDATA%\Packages\<paquet>\LocalState` et `Settings`) :
+
+- **Les réglages et la position de la fenêtre.**
+- **La dernière source choisie** — dossiers scannés, un fichier XML iTunes ou une bibliothèque sCollect — et le
+  résultat du dernier scan.
+- **Dans sCollectPlay, en plus :** vos propres playlists.
+- **Un journal des erreurs** (`fehler.log`), qui reste sur votre PC.
+
+Tout cela est supprimé lorsque vous désinstallez l’app.
+
+L’app ne lit les fichiers médias et les fichiers XML qu’aux emplacements que vous sélectionnez ; une bibliothèque
+sCollect est uniquement lue. Elle n’établit aucune connexion réseau propre, n’utilise aucun service d’analyse et
+n’affiche aucune publicité. Les fichiers que Windows ne lit pas lui-même sont transmis au programme par défaut pour ce
+type de fichier, que vous choisissez dans Windows.
+
+## Microsoft Store
+
+Sous Windows, l’achat (sCollectPlay), le téléchargement et les mises à jour passent par le Microsoft Store ; la
+déclaration de confidentialité de Microsoft s’y applique. sCollectPlay Lite est gratuite et renvoie à la version
+complète dans le Store.
 
 ## Aucune transmission, aucune analyse
 

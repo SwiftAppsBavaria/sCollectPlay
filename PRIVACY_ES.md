@@ -1,11 +1,11 @@
 # Política de privacidad de sCollectPlay y sCollectPlay Lite
 
-Actualizado: 2026-10-01
+Actualizado: 2026-10-22
 
 ## En resumen
 
 sCollectPlay y sCollectPlay Lite **no** recopilan, almacenan ni transmiten datos
-personales. Las apps trabajan exclusivamente en tu Mac. No hay cuentas, ni conexión a la
+personales. Las apps trabajan exclusivamente en tu Mac o tu PC con Windows. No hay cuentas, ni conexión a la
 nube, ni servicios de analítica, ni publicidad.
 
 ## Qué datos procesa la app
@@ -53,6 +53,29 @@ Solo cuando borras un archivo expresamente, la app lo lleva a la papelera de mac
 quita de la lista; si procede de una biblioteca de sCollect, su catálogo se ajusta en
 consecuencia. En unidades sin papelera, la app pregunta antes si el archivo debe
 borrarse definitivamente.
+
+## En Windows
+
+Los apartados anteriores describen el Mac. En Windows, sCollectPlay y sCollectPlay Lite guardan lo siguiente
+exclusivamente de forma local, en la carpeta de datos de la app (`%LOCALAPPDATA%\Packages\<paquete>\LocalState` y `Settings`):
+
+- **Los ajustes y la posición de la ventana.**
+- **La última fuente elegida** — carpetas escaneadas, un archivo XML de iTunes o una biblioteca de sCollect — y el
+  resultado del último escaneo.
+- **En sCollectPlay, además:** tus propias listas de reproducción.
+- **Un registro de errores** (`fehler.log`), que se queda en tu PC.
+
+Todo ello se elimina cuando desinstalas la app.
+
+La app solo lee archivos de medios y archivos XML allí donde tú los seleccionas; una biblioteca de sCollect solo se lee.
+No establece conexiones de red propias, no usa servicios de analítica y no muestra publicidad. Los archivos que Windows
+no reproduce por sí mismo se pasan al programa predeterminado para ese tipo de archivo, que eliges en Windows.
+
+## Microsoft Store
+
+En Windows, la compra (sCollectPlay), la descarga y las actualizaciones se gestionan a través de Microsoft Store; para
+ello se aplica la declaración de privacidad de Microsoft. sCollectPlay Lite es gratuita y remite a la versión completa
+en la Store.
 
 ## Sin cesión de datos, sin analítica
 

@@ -62,7 +62,9 @@ forma local, na pasta de dados do app (`%LOCALAPPDATA%\Packages\<pacote>\LocalSt
 - **Configurações e a posição da janela.**
 - **A última fonte escolhida** — pastas escaneadas, um arquivo XML do iTunes ou uma biblioteca do sCollect — e o
   resultado do último escaneamento.
-- **No sCollectPlay, além disso:** as suas próprias playlists.
+- **A correspondência entre as pastas Mac de uma biblioteca e pastas do seu PC** (apenas caminhos de pastas).
+- **No sCollectPlay, além disso:** as suas próprias playlists, a lista das pastas, dos arquivos XML e das
+  bibliotecas usados recentemente, a ordenação e o estado do navegador de colunas.
 - **Um registro de erros** (`fehler.log`), que fica no seu PC.
 
 Tudo isso é removido quando você desinstala o app.
@@ -71,10 +73,13 @@ O app só lê arquivos de mídia e arquivos XML onde você os seleciona; uma bib
 faz conexões de rede próprias, não usa serviços de análise e não exibe publicidade. Arquivos que o Windows não reproduz
 sozinho são passados ao programa padrão para esse tipo de arquivo, que você escolhe no Windows.
 
+Se você exportar no sCollectPlay uma playlist para o VLC ou um dispositivo, o app copia os arquivos dela para a
+pasta que você escolher. No Windows, ele não exclui arquivos de mídia.
+
 ## Microsoft Store
 
 No Windows, a compra (sCollectPlay), o download e as atualizações são feitos pela Microsoft Store; para isso vale a
-declaração de privacidade da Microsoft. O sCollectPlay Lite é gratuito e remete à versão completa na Store.
+declaração de privacidade da Microsoft. O sCollectPlay Lite é gratuito e menciona a versão completa.
 
 ## Sem repasse, sem análise
 

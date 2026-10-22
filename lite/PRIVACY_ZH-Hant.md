@@ -56,7 +56,9 @@ App 不寫入標籤，也不更改你檔案的中繼資料。
 
 - **設定與視窗位置。**
 - **最近一次選擇的來源** —— 掃描過的資料夾、一個 iTunes XML 檔案或一個 sCollect 媒體庫 —— 以及上一次掃描的結果。
-- **sCollectPlay 另外還會儲存：** 你自建的播放清單。
+- **媒體庫在 Mac 上的資料夾與你電腦上資料夾的對應關係**（僅資料夾路徑）。
+- **sCollectPlay 另外還會儲存：** 你自建的播放清單、最近使用的資料夾、XML 檔案和媒體庫的清單、排序方式以及
+  分欄瀏覽器的狀態。
 - **錯誤記錄**（`fehler.log`），它只留在你的電腦上。
 
 解除安裝 App 時，這些內容會全部刪除。
@@ -64,10 +66,13 @@ App 不寫入標籤，也不更改你檔案的中繼資料。
 App 只在你選擇的位置讀取媒體檔案和 XML 檔案；sCollect 媒體庫只會被讀取。App 不會自行建立網路連線，不使用分析服務，
 也沒有廣告。Windows 本身無法播放的檔案，會交給該檔案類型的預設程式，預設程式由你在 Windows 中選擇。
 
+在 sCollectPlay 中為 VLC 或裝置匯出播放清單時，App 會把其中的檔案拷貝到你選擇的資料夾。在 Windows 上，App
+不會刪除媒體檔案。
+
 ## Microsoft Store
 
 在 Windows 上，購買（sCollectPlay）、下載和更新都透過 Microsoft Store 進行，適用 Microsoft 的隱私權聲明。
-sCollectPlay Lite 是免費的，並會引導你前往 Store 中的完整版。
+sCollectPlay Lite 是免費的，並會提及完整版。
 
 ## 不轉交，不分析
 

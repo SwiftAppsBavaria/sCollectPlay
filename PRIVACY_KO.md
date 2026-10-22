@@ -59,7 +59,9 @@ sCollectPlay와 sCollectPlay Lite는 개인정보를 **전혀** 수집하지 않
 
 - **설정과 창 위치.**
 - **마지막으로 선택한 소스** — 스캔한 폴더, iTunes XML 파일 또는 sCollect 라이브러리 — 와 마지막 스캔 결과.
-- **sCollectPlay에서는 추가로:** 직접 만든 재생목록.
+- **라이브러리의 Mac 폴더와 PC 폴더의 대응 관계**(폴더 경로만).
+- **sCollectPlay에서는 추가로:** 직접 만든 재생목록, 최근에 쓴 폴더, XML 파일, 라이브러리의 목록, 정렬과 열
+  브라우저의 상태.
 - **오류 로그**(`fehler.log`). 사용자의 PC 밖으로 나가지 않습니다.
 
 이 모든 것은 앱을 제거하면 삭제됩니다.
@@ -68,10 +70,13 @@ sCollectPlay와 sCollectPlay Lite는 개인정보를 **전혀** 수집하지 않
 자체적으로 네트워크에 연결하지 않으며, 분석 서비스와 광고도 없습니다. Windows가 직접 재생하지 못하는 파일은 해당
 파일 형식의 기본 앱에 넘겨지며, 그 앱은 사용자가 Windows에서 정합니다.
 
+sCollectPlay에서 재생목록을 VLC나 기기용으로 내보내면, 앱은 그 파일을 사용자가 선택한 폴더에 복사합니다.
+Windows에서는 미디어 파일을 삭제하지 않습니다.
+
 ## Microsoft Store
 
 Windows에서는 구입(sCollectPlay), 다운로드, 업데이트가 Microsoft Store를 통해 이루어지며, 여기에는 Microsoft
-개인정보처리방침이 적용됩니다. sCollectPlay Lite는 무료이며 Store의 정식 버전을 안내합니다.
+개인정보처리방침이 적용됩니다. sCollectPlay Lite는 무료이며 정식 버전을 소개합니다.
 
 ## 제3자 제공 없음, 분석 없음
 

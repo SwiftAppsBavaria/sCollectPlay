@@ -66,7 +66,9 @@ lokal im Datenordner der App ab (`%LOCALAPPDATA%\Packages\<Paket>\LocalState` un
 - **Einstellungen und die Fensterlage.**
 - **Die zuletzt gewählte Quelle** — gescannte Ordner, eine iTunes-XML-Datei oder eine sCollect-Mediathek — und das
   Ergebnis des letzten Scans.
-- **In sCollectPlay zusätzlich:** deine eigenen Wiedergabelisten.
+- **Die Zuordnung der Mac-Ordner einer Mediathek zu Ordnern auf deinem PC** (nur Ordnerpfade).
+- **In sCollectPlay zusätzlich:** deine eigenen Wiedergabelisten, die Listen der zuletzt benutzten Ordner,
+  XML-Dateien und Mediatheken, die Sortierung und der Zustand des Spaltenbrowsers.
 - **Ein Fehlerprotokoll** (`fehler.log`), das auf deinem PC bleibt.
 
 Alles davon wird entfernt, wenn du die App deinstallierst.
@@ -75,10 +77,13 @@ Die App liest Mediendateien und XML-Dateien nur dort, wo du sie auswählst; eine
 baut keine eigenen Netzverbindungen auf, nutzt keine Analysedienste und zeigt keine Werbung. Dateien, die Windows nicht
 selbst abspielt, übergibt sie an das Standardprogramm für den Dateityp — welches das ist, stellst du in Windows ein.
 
+Exportierst du in sCollectPlay eine Playlist für VLC oder ein Gerät, kopiert die App deren Dateien in den Ordner, den
+du wählst. Mediendateien löscht sie unter Windows nicht.
+
 ## Microsoft Store
 
 Unter Windows laufen Kauf (sCollectPlay), Download und Updates über den Microsoft Store; dafür gilt die
-Datenschutzerklärung von Microsoft. sCollectPlay Lite ist kostenlos und verweist auf die Vollversion im Store.
+Datenschutzerklärung von Microsoft. sCollectPlay Lite ist kostenlos und nennt die Vollversion.
 
 ## Keine Weitergabe, keine Analyse
 

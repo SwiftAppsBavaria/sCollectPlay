@@ -62,7 +62,9 @@ exclusivamente de forma local, en la carpeta de datos de la app (`%LOCALAPPDATA%
 - **Los ajustes y la posición de la ventana.**
 - **La última fuente elegida** — carpetas escaneadas, un archivo XML de iTunes o una biblioteca de sCollect — y el
   resultado del último escaneo.
-- **En sCollectPlay, además:** tus propias listas de reproducción.
+- **La correspondencia entre las carpetas Mac de una biblioteca y carpetas de tu PC** (solo rutas de carpetas).
+- **En sCollectPlay, además:** tus propias listas de reproducción, la lista de las carpetas, los archivos XML y
+  las bibliotecas usados recientemente, la ordenación y el estado del navegador de columnas.
 - **Un registro de errores** (`fehler.log`), que se queda en tu PC.
 
 Todo ello se elimina cuando desinstalas la app.
@@ -71,11 +73,13 @@ La app solo lee archivos de medios y archivos XML allí donde tú los selecciona
 No establece conexiones de red propias, no usa servicios de analítica y no muestra publicidad. Los archivos que Windows
 no reproduce por sí mismo se pasan al programa predeterminado para ese tipo de archivo, que eliges en Windows.
 
+Si en sCollectPlay exportas una lista de reproducción para VLC o un dispositivo, la app copia sus archivos en la
+carpeta que elijas. En Windows no elimina archivos de medios.
+
 ## Microsoft Store
 
 En Windows, la compra (sCollectPlay), la descarga y las actualizaciones se gestionan a través de Microsoft Store; para
-ello se aplica la declaración de privacidad de Microsoft. sCollectPlay Lite es gratuita y remite a la versión completa
-en la Store.
+ello se aplica la declaración de privacidad de Microsoft. sCollectPlay Lite es gratuita y menciona la versión completa.
 
 ## Sin cesión de datos, sin analítica
 

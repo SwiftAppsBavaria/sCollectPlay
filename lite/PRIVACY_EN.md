@@ -66,7 +66,9 @@ locally, in the app’s data folder (`%LOCALAPPDATA%\Packages\<package>\LocalSta
 - **Settings and the window position.**
 - **The source you chose last** — scanned folders, an iTunes XML file or a sCollect library — and the result of the
   last scan.
-- **In sCollectPlay additionally:** your own playlists.
+- **The mapping of a library’s Mac folders to folders on your PC** (folder paths only).
+- **In sCollectPlay additionally:** your own playlists, the lists of recently used folders, XML files and
+  libraries, the sort order and the state of the column browser.
 - **An error log** (`fehler.log`), which stays on your PC.
 
 All of this is removed when you uninstall the app.
@@ -75,10 +77,13 @@ The app reads media files and XML files only where you select them; a sCollect l
 network connections of its own, uses no analytics services and shows no advertising. Files that Windows cannot play
 itself are handed to the default program for that file type, which you choose in Windows.
 
+If you export a playlist for VLC or a device in sCollectPlay, the app copies its files into the folder you choose.
+On Windows it never deletes media files.
+
 ## Microsoft Store
 
 On Windows, purchase (sCollectPlay), download and updates are handled by the Microsoft Store; Microsoft’s privacy
-statement applies to these. sCollectPlay Lite is free and refers to the full version in the Store.
+statement applies to these. sCollectPlay Lite is free and mentions the full version.
 
 ## No sharing, no analytics
 

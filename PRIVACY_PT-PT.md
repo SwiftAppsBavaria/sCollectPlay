@@ -1,6 +1,6 @@
 # Política de privacidade do sCollectPlay e do sCollectPlay Lite
 
-Atualizado a: 2026-10-22
+Atualizado a: 2026-10-23
 
 ## Em resumo
 
@@ -51,6 +51,8 @@ primeira vez. A aplicação não controla outros programas.
 
 A aplicação não escreve tags nem altera os metadados dos seus ficheiros.
 
+Se abrir uma biblioteca do sCollect, a aplicação guarda as suas classificações e reproduções (com data e hora) no ficheiro `rueckmeldungen.json` da pasta dessa biblioteca, para que o sCollect as possa incorporar. Não altera a biblioteca em si nem os ficheiros multimédia, e nada disto sai do seu computador.
+
 Só quando apaga expressamente um ficheiro é que a aplicação o coloca no Lixo do macOS e o
 retira da lista; se provier de uma biblioteca do sCollect, o respetivo catálogo também é
 ajustado em conformidade. Em unidades sem Lixo, a aplicação pergunta antes se o ficheiro
@@ -71,7 +73,7 @@ forma local, na pasta de dados da aplicação (`%LOCALAPPDATA%\Packages\<pacote>
 
 Tudo isto é removido quando desinstala a aplicação.
 
-A aplicação só lê ficheiros multimédia e ficheiros XML onde os selecionar; uma biblioteca do sCollect é apenas lida. Não
+A aplicação só lê ficheiros multimédia e ficheiros XML onde os selecionar; uma biblioteca do sCollect é apenas lida, exceto o ficheiro `rueckmeldungen.json` descrito em «Os seus ficheiros». Não
 estabelece ligações de rede próprias, não usa serviços de análise e não apresenta publicidade. Os ficheiros que o
 Windows não reproduz sozinho são entregues ao programa predefinido para esse tipo de ficheiro, que escolhe no Windows.
 

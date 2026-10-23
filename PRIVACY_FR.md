@@ -1,6 +1,6 @@
 # Politique de confidentialité de sCollectPlay et sCollectPlay Lite
 
-Mise à jour : 2026-10-22
+Mise à jour : 2026-10-23
 
 ## En bref
 
@@ -52,6 +52,8 @@ programme.
 
 L’app n’écrit aucun tag et ne modifie aucune métadonnée de vos fichiers.
 
+Si vous ouvrez une bibliothèque sCollect, l’app enregistre vos notes et vos lectures (avec la date et l’heure) dans le fichier `rueckmeldungen.json` du dossier de cette bibliothèque, afin que sCollect puisse les reprendre. Elle ne modifie ni la bibliothèque elle-même ni les fichiers médias, et rien de tout cela ne quitte votre ordinateur.
+
 Seulement lorsque vous supprimez expressément un fichier, l’app le place dans la corbeille
 de macOS et le retire de la liste ; s’il provient d’une bibliothèque sCollect, le
 catalogue de celle-ci est adapté en conséquence. Sur les disques sans corbeille, l’app
@@ -73,8 +75,7 @@ suivants exclusivement en local, dans le dossier de données de l’app (`%LOCAL
 
 Tout cela est supprimé lorsque vous désinstallez l’app.
 
-L’app ne lit les fichiers médias et les fichiers XML qu’aux emplacements que vous sélectionnez ; une bibliothèque
-sCollect est uniquement lue. Elle n’établit aucune connexion réseau propre, n’utilise aucun service d’analyse et
+L’app ne lit les fichiers médias et les fichiers XML qu’aux emplacements que vous sélectionnez ; une bibliothèque sCollect est uniquement lue, à l’exception du fichier `rueckmeldungen.json` décrit sous « Vos fichiers ». Elle n’établit aucune connexion réseau propre, n’utilise aucun service d’analyse et
 n’affiche aucune publicité. Les fichiers que Windows ne lit pas lui-même sont transmis au programme par défaut pour ce
 type de fichier, que vous choisissez dans Windows.
 

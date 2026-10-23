@@ -4,7 +4,7 @@ layout: lite
 
 # Política de privacidad de sCollectPlay y sCollectPlay Lite
 
-Actualizado: 2026-10-22
+Actualizado: 2026-10-23
 
 ## En resumen
 
@@ -53,6 +53,8 @@ para ello, y se te solicita la primera vez. La app no controla ningún otro prog
 
 La app no escribe etiquetas ni cambia los metadatos de tus archivos.
 
+Si abres una biblioteca de sCollect, la app guarda tus valoraciones y reproducciones (con fecha y hora) en el archivo `rueckmeldungen.json` de la carpeta de esa biblioteca, para que sCollect pueda incorporarlas. No modifica la biblioteca en sí ni los archivos de medios, y nada de ello sale de tu ordenador.
+
 Solo cuando borras un archivo expresamente, la app lo lleva a la papelera de macOS y lo
 quita de la lista; si procede de una biblioteca de sCollect, su catálogo se ajusta en
 consecuencia. En unidades sin papelera, la app pregunta antes si el archivo debe
@@ -73,7 +75,7 @@ exclusivamente de forma local, en la carpeta de datos de la app (`%LOCALAPPDATA%
 
 Todo ello se elimina cuando desinstalas la app.
 
-La app solo lee archivos de medios y archivos XML allí donde tú los seleccionas; una biblioteca de sCollect solo se lee.
+La app solo lee archivos de medios y archivos XML allí donde tú los seleccionas; una biblioteca de sCollect solo se lee, salvo el archivo `rueckmeldungen.json`, como se describe en «Tus archivos».
 No establece conexiones de red propias, no usa servicios de analítica y no muestra publicidad. Los archivos que Windows
 no reproduce por sí mismo se pasan al programa predeterminado para ese tipo de archivo, que eliges en Windows.
 

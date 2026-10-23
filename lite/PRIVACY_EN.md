@@ -4,7 +4,7 @@ layout: lite
 
 # Privacy Policy for sCollectPlay and sCollectPlay Lite
 
-Last updated: 2026-10-22
+Last updated: 2026-10-23
 
 ## In brief
 
@@ -53,6 +53,8 @@ the first time. The app controls no other programs.
 
 The app writes no tags and changes no metadata in your files.
 
+When you open an sCollect library, the app stores your ratings and plays (with date and time) in the file `rueckmeldungen.json` in that library’s folder, so that sCollect can take them over. It does not change the library itself or the media files, and none of this leaves your computer.
+
 Only when you expressly delete a file does the app put it in the macOS Trash and remove it
 from the list; if it comes from an sCollect library, that library’s catalog is adjusted
 accordingly. On drives without a Trash the app asks beforehand whether the file should be
@@ -73,7 +75,7 @@ locally, in the app’s data folder (`%LOCALAPPDATA%\Packages\<package>\LocalSta
 
 All of this is removed when you uninstall the app.
 
-The app reads media files and XML files only where you select them; a sCollect library is only read. It makes no
+The app reads media files and XML files only where you select them; a sCollect library is only read — except for the file `rueckmeldungen.json`, as described under “Your files”. It makes no
 network connections of its own, uses no analytics services and shows no advertising. Files that Windows cannot play
 itself are handed to the default program for that file type, which you choose in Windows.
 

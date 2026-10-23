@@ -4,7 +4,7 @@ layout: lite
 
 # Datenschutzerklärung für sCollectPlay und sCollectPlay Lite
 
-Stand: 2026-10-22
+Stand: 2026-10-23
 
 ## Kurzfassung
 
@@ -53,6 +53,8 @@ sie wird beim ersten Mal abgefragt. Andere Programme steuert die App nicht.
 
 Die App schreibt keine Tags und ändert keine Metadaten deiner Dateien.
 
+Öffnest du eine sCollect-Mediathek, legt die App deine Bewertungen und Wiedergaben (mit Datum und Uhrzeit) in der Datei `rueckmeldungen.json` im Ordner dieser Mediathek ab, damit sCollect sie übernehmen kann. Die Mediathek selbst und die Mediendateien ändert sie dabei nicht, und nichts davon verlässt deinen Rechner.
+
 Nur wenn du eine Datei ausdrücklich löschst, legt die App sie in den Papierkorb von macOS
 und nimmt sie aus der Liste; stammt sie aus einer sCollect-Mediathek, wird auch deren
 Katalog entsprechend angepasst. Auf Laufwerken ohne Papierkorb fragt die App vorher, ob
@@ -73,7 +75,7 @@ lokal im Datenordner der App ab (`%LOCALAPPDATA%\Packages\<Paket>\LocalState` un
 
 Alles davon wird entfernt, wenn du die App deinstallierst.
 
-Die App liest Mediendateien und XML-Dateien nur dort, wo du sie auswählst; eine sCollect-Mediathek wird nur gelesen. Sie
+Die App liest Mediendateien und XML-Dateien nur dort, wo du sie auswählst; eine sCollect-Mediathek wird nur gelesen — bis auf die Datei `rueckmeldungen.json`, wie unter „Deine Dateien“ beschrieben. Sie
 baut keine eigenen Netzverbindungen auf, nutzt keine Analysedienste und zeigt keine Werbung. Dateien, die Windows nicht
 selbst abspielt, übergibt sie an das Standardprogramm für den Dateityp — welches das ist, stellst du in Windows ein.
 

@@ -76,7 +76,11 @@ baut keine eigenen Netzverbindungen auf, nutzt keine Analysedienste und zeigt ke
 selbst abspielt, übergibt sie an das Standardprogramm für den Dateityp — welches das ist, stellst du in Windows ein.
 
 Exportierst du in sCollectPlay eine Playlist für VLC oder ein Gerät, kopiert die App deren Dateien in den Ordner, den
-du wählst. Mediendateien löscht sie unter Windows nicht.
+du wählst.
+
+Nur wenn du ausdrücklich eine Mediendatei aus gescannten Ordnern oder einer iTunes-XML löschst, legt die App sie in
+den Windows-Papierkorb; auf einem Laufwerk ohne Papierkorb, etwa im Netz, wird sie nach Rückfrage endgültig gelöscht.
+Eine sCollect-Mediathek verändert sie dabei nicht.
 
 ## Microsoft Store
 

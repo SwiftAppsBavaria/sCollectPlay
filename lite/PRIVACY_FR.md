@@ -84,7 +84,11 @@ n’affiche aucune publicité. Les fichiers que Windows ne lit pas lui-même son
 type de fichier, que vous choisissez dans Windows.
 
 Si vous exportez dans sCollectPlay une playlist pour VLC ou un appareil, l’app copie ses fichiers dans le dossier
-que vous choisissez. Sous Windows, elle ne supprime aucun fichier média.
+que vous choisissez.
+
+Seulement lorsque vous supprimez expressément un fichier média issu de dossiers scannés ou d’un XML iTunes, l’app le
+place dans la Corbeille de Windows ; sur un lecteur sans corbeille, par exemple sur le réseau, il est supprimé
+définitivement après confirmation. Une bibliothèque sCollect n’est pas modifiée pour autant.
 
 ## Microsoft Store
 

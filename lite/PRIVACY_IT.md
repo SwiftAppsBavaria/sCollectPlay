@@ -82,7 +82,11 @@ stabilisce connessioni di rete proprie, non usa servizi di analisi e non mostra 
 riproduce da sé vengono passati al programma predefinito per quel tipo di file, che scegli in Windows.
 
 Se in sCollectPlay esporti una playlist per VLC o per un dispositivo, l’app ne copia i file nella cartella che
-scegli. Su Windows non elimina file multimediali.
+scegli.
+
+Solo se elimini espressamente un file multimediale da cartelle scansionate o da un XML di iTunes, l’app lo sposta nel
+Cestino di Windows; su un’unità senza Cestino, per esempio in rete, viene eliminato definitivamente dopo una conferma.
+Una libreria sCollect non viene modificata.
 
 ## Microsoft Store
 

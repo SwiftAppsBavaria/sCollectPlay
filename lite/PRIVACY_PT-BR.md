@@ -80,7 +80,11 @@ faz conexões de rede próprias, não usa serviços de análise e não exibe pub
 sozinho são passados ao programa padrão para esse tipo de arquivo, que você escolhe no Windows.
 
 Se você exportar no sCollectPlay uma playlist para o VLC ou um dispositivo, o app copia os arquivos dela para a
-pasta que você escolher. No Windows, ele não exclui arquivos de mídia.
+pasta que você escolher.
+
+Só quando você apaga expressamente um arquivo de mídia de pastas escaneadas ou de um XML do iTunes, o app o coloca na
+Lixeira do Windows; em uma unidade sem Lixeira, por exemplo na rede, ele é apagado definitivamente após confirmação.
+Uma biblioteca do sCollect não é alterada com isso.
 
 ## Microsoft Store
 

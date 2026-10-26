@@ -80,7 +80,11 @@ No establece conexiones de red propias, no usa servicios de analítica y no mues
 no reproduce por sí mismo se pasan al programa predeterminado para ese tipo de archivo, que eliges en Windows.
 
 Si en sCollectPlay exportas una lista de reproducción para VLC o un dispositivo, la app copia sus archivos en la
-carpeta que elijas. En Windows no elimina archivos de medios.
+carpeta que elijas.
+
+Solo cuando borras expresamente un archivo de medios de carpetas escaneadas o de un XML de iTunes, la app lo lleva a la
+Papelera de reciclaje de Windows; en una unidad sin papelera, por ejemplo en red, se borra definitivamente tras
+preguntarte. Una biblioteca de sCollect no se modifica con ello.
 
 ## Microsoft Store
 

@@ -68,8 +68,10 @@ App 不写入标签，也不更改你文件的元数据。
 App 只在你选择的位置读取媒体文件和 XML 文件；sCollect 媒体库只会被读取（“你的文件”中所述的 `rueckmeldungen.json` 文件除外）。App 不会自行建立网络连接，不使用分析服务，
 也没有广告。Windows 自身无法播放的文件，会交给该文件类型的默认程序，默认程序由你在 Windows 中选择。
 
-在 sCollectPlay 中为 VLC 或设备导出播放列表时，App 会把其中的文件复制到你选择的文件夹。在 Windows 上，App
-不会删除媒体文件。
+在 sCollectPlay 中为 VLC 或设备导出播放列表时，App 会把其中的文件复制到你选择的文件夹。
+
+只有当你明确删除来自扫描过的文件夹或 iTunes XML 的某个媒体文件时，App 才会把它移到 Windows 的回收站；在没有
+回收站的驱动器上（例如网络上），App 会先询问，然后永久删除该文件。sCollect 媒体库不会因此改变。
 
 ## Microsoft Store
 

@@ -80,7 +80,7 @@ riproduce da sé vengono passati al programma predefinito per quel tipo di file,
 Se in sCollectPlay esporti una playlist per VLC o per un dispositivo, l’app ne copia i file nella cartella che
 scegli.
 
-Solo se elimini espressamente un file multimediale da cartelle scansionate o da un XML di iTunes, l’app lo sposta nel
+Solo se elimini espressamente un file multimediale, l’app lo sposta nel
 Cestino di Windows; su un’unità senza Cestino, per esempio in rete, viene eliminato definitivamente dopo una conferma.
 Una libreria sCollect non viene modificata.
 

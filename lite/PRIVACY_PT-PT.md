@@ -84,7 +84,7 @@ Windows não reproduz sozinho são entregues ao programa predefinido para esse t
 Se exportar no sCollectPlay uma playlist para o VLC ou um dispositivo, a aplicação copia os respetivos ficheiros
 para a pasta que escolher.
 
-Só quando apaga expressamente um ficheiro multimédia de pastas analisadas ou de um XML do iTunes é que a aplicação o
+Só quando apaga expressamente um ficheiro multimédia é que a aplicação o
 coloca na Reciclagem do Windows; numa unidade sem Reciclagem, por exemplo na rede, é apagado definitivamente após
 confirmação. Uma biblioteca do sCollect não é alterada com isso.
 

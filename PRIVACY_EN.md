@@ -78,7 +78,7 @@ itself are handed to the default program for that file type, which you choose in
 If you export a playlist for VLC or a device in sCollectPlay, the app copies its files into the folder you choose.
 
 
-Only when you expressly delete a media file from scanned folders or an iTunes XML does the app put it in the Windows
+Only when you expressly delete a media file does the app put it in the Windows
 Recycle Bin; on a drive without a Recycle Bin, such as a network drive, it is deleted for good after the app asks you.
 A sCollect library is not changed in the process.
 

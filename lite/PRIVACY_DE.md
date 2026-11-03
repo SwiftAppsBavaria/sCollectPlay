@@ -82,7 +82,7 @@ selbst abspielt, übergibt sie an das Standardprogramm für den Dateityp — wel
 Exportierst du in sCollectPlay eine Playlist für VLC oder ein Gerät, kopiert die App deren Dateien in den Ordner, den
 du wählst.
 
-Nur wenn du ausdrücklich eine Mediendatei aus gescannten Ordnern oder einer iTunes-XML löschst, legt die App sie in
+Nur wenn du ausdrücklich eine Mediendatei löschst, legt die App sie in
 den Windows-Papierkorb; auf einem Laufwerk ohne Papierkorb, etwa im Netz, wird sie nach Rückfrage endgültig gelöscht.
 Eine sCollect-Mediathek verändert sie dabei nicht.
 
